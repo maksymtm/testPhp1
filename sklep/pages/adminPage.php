@@ -19,16 +19,16 @@
     <button onclick="location.href='../actions/logout.php'">Wyloguj</button>
     <table>
         <tr>
-            <th>id</th>
-            <th>login</th>
-            <th>password</th>
-            <th>name</th>
-            <th>lastname</th>
-            <th>role</th>
-            <th>age</th>
+            <th>Id</th>
+            <th>Login</th>
+            <th>Password</th>
+            <th>Name</th>
+            <th>Lastname</th>
+            <th>Role</th>
+            <th>Age</th>
             <th></th>
             <th></th>
-            <th>isAdmin</th>
+            <th>IsAdmin</th>
         </tr>
         <?php
             require_once '../utils/Db.php';

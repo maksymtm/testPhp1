@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<h1>Product Shop</h1>
+		<h1>Product Shop Wiszniowka</h1>
         <?php
             session_start();
             if (!isset($_SESSION['logged'])) {
@@ -33,7 +33,7 @@
         <a href="#">Contact</a>
         <a href="#" >
             <h1 id="prodCounterLabel">
-                Cart (<?=$cartProductsCount?>)
+                Cart: (<?=$cartProductsCount?>)
             </h1>
         </a>
 	</nav>
